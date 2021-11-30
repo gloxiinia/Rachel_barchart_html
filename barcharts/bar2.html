@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Chart 2</title>
+    <link rel="stylesheet" href="/css/bar_2.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="/index.html" class="active">Main Page</a>
+        <a href="/barcharts/bar1.html">Chart 1</a>
+        <a href="/barcharts/bar2.html">Chart 2</a>
+        <a href="/barcharts/bar3.html">Chart 3</a>
+        <a href="/barcharts/bar4.html">Chart 4</a>
+        <a href="/barcharts/bar5.html">Chart 5</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <div class="audio_blurb">
+        <p>Some chill tunes while you browse... 𝅘𝅥𝅮 </p>
+    </div>
+    <div class="title_audio">
+        <iframe src="silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
+        <audio controls autoplay loop>
+            <source src="/other resources/3-50-Able-Sisters-Welcome-To-The-Able-Sisters_.wav" type="audio/wav">
+        </audio>
+    </div>
+    <div class="legend">
+        <p style="text-align: center;"> Surv = Survived, Dece = Deceased</p>
+    </div>
+    <table class="graph">
+        <caption>Titanic Survivor Count Based on Sex</caption>
+        <thead>
+            <tr>
+                <th scope="col">Item</th>
+                <th scope="col">Percent</th>
+            </tr>
+        </thead><tbody class="horizontal">
+            <tr style="height:26%">
+                <th scope="row" style="font-size:15px;">Surv, Female</th>
+                <td><span>26%</span></td>
+            </tr>
+            <tr style="height:12%">
+                <th scope="row" style="font-size:15px;">Surv, Male</th>
+                <td><span>12%</span></td>
+            </tr>
+            <tr style="height:10%">
+                <th scope="row" style="font-size:15px;">Dece, Female</th>
+                <td><span>10%</span></td>
+            </tr>
+            <tr style="height:52%">
+                <th scope="row" style="font-size:15px;">Dece, Male</th>
+                <td><span>52%</span></td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="/script.js"></script>
+</body>
+</html>
