@@ -7,4 +7,4 @@ Name  : Rachel Anastasia Wijaya
 Class  : L1BC
 
 
-Live link : 
+Live link : https://gloxiinia.github.io/Rachel_barchart_html/
