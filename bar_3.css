@@ -47,6 +47,10 @@ body {
   font-size:20px;
 }
 
+.legend {
+	text-align:center;
+}
+
 .graph {
 	margin-bottom:1em;
   margin-top:25px;
