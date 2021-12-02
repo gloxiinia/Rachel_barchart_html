@@ -121,7 +121,7 @@ body {
 
 @supports (display:grid) {
 
-	@media (min-width:32em) {
+	@media (min-width:38em) {
 
 		.graph {
 			display:block;
